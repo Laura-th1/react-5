@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app {
+  border: 3px solid #e70ab394;
+  border-radius: 20px;
+  padding: 16;
+  margin: 20px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app h1 {
+  font-style: oblique;
+  font-weight: bold;
+  align-items: center;
+  color: black;
+}
+
+.app profileCard {
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.app h2 {
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  color: rgb(80, 80, 80);
+}
+
+.productCard {
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.contenedor {
+  text-align: center;
+  align-items: center;
+  position: relative;
+  border: 3px solid #e70ab394;
+  border-radius: 20px;
+  padding: 16;
+  margin: 20px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
 }
